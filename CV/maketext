@@ -1,0 +1,8 @@
+pandoc -o cv1.txt cv.tex
+sed 's/\\//g' cv1.txt > cv2.txt
+sed 's/\*//g' cv2.txt > cv3.txt
+sed 's/\>//g' cv3.txt > cv4.txt
+tail -n +14 cv4.txt > cv5.txt
+cat personalInfo.txt cv5.txt > cv6.txt
+sed -e :a -e '$d;N;2,2ba' -e 'P;D' cv6.txt > cv.txt
+rm cv[1-6].txt

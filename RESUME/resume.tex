@@ -1,0 +1,178 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Mark Betnel}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {physics, education},
+  pdftitle = {\name: Resume},
+  pdfsubject = {Resume},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  105 Bartlett Avenue \\
+  Cranston, RI 02905
+  \end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (401) 461-0268 \\
+    Email: & \href{mailto:markbetnel@gmail.com}{\tt markbetnel@gmail.com} \\
+    Homepage: & \href{http://www.markbetnel.com/}{\tt http://www.markbetnel.com/} \\
+  \end{tabular}
+\end{minipage}
+
+
+%\section*{Personal}
+%\begin{itemize}
+%\item Born February 1, 1976.
+%\end{itemize}
+
+
+\section*{Education}
+\begin{itemize}
+  \item \textbf{2005-2011} \\
+      Ph.D. 	Physics, 	Boston University
+  \item 	\textbf{2003-2005} \\
+	  M.S. 	Physics, University of Rhode Island 
+  \item     \textbf{1999-2002} \\
+      M.A. Philosophy, San Francisco State University 
+  \item     \textbf{1994-1998} \\
+	  B.S. Physics, Harvey Mudd College
+\end{itemize}
+
+
+\section*{Employment}
+\begin{itemize}
+	\item \textbf{2011-current} \\
+	Assistant Professor of Science and Math, Johnson and Wales University \\
+	Courses Taught: Discrete Mathematics, Survey of Math, Quantitative Analysis, Precalculus, Algebra, Science and Civilization, General Physics, Calculus-based Physics
+        \item \textbf{2011}\\
+        Adjunct faculty, Physics and Chemistry, Wentworth Institute of Technology \\
+        Courses Taught: Introductory Chemistry and Introductory Physics labs
+	\item \textbf{2007-2010} \\
+	Research Fellow, Biophysics, Boston University \\  
+	Used molecular dynamics to simulate folding, assembly,
+	and inhibition of assembly in proteins related to Alzheimer's and
+	Parkinson's diseases. 
+	\item \textbf{2008-2009} \\
+	Graduate Writing Fellow, Boston University \\  
+	Courses taught: WR100/WR150 (Freshman writing seminars, first and second semester) \\  
+	Developed curriculum for Popular Science Writing, managed online course content and online peer editing and feedback systems, taught two semesters of writing to college freshmen.  
+	\item \textbf{2007-2008} \\
+	National Science Foundation GK-12 Fellow, Boston Urban Fellows \\  
+	Course taught: High school physics, engineering  \\
+	Developed curriculum and materials or high school physics and engineering classes at The Engineering School, a model school in Hyde Park, MA serving a diverse student population.  Developed lecture demonstrations in consultation with the Boston University Physics Department Demo Coordinator.  Developed and delivered a ``physics show'' about the physics of sound for several hundred Boston area high school students.
+	\item \textbf{2005-2008} \\
+	Teaching Fellow, Physics, Boston University \\  
+	Courses taught: Recitation sections for Electricity and Magnetism, recitation and lab sections for Modern Physics (undergraduate). Guest lectures in Modern Physics.  \\
+	Courses graded: Mathematical Methods (undergraduate), Computational Physics, Statistical Mechanics II, Solid State Physics (graduate)   
+	\item \textbf{2003-2005}\\
+	Teaching Assistant, Physics, University of Rhode Island \\  
+	Courses taught: Lab sections for Introductory Mechanics   \\
+	Assisted in maintenance of instructional lab equipment.  Developed new lab manual for Introductory Mechanics classes, focusing on clear exposition for use by new teaching assistants, and pedagogical value for students.  Arranged technology demonstrations for new graduate students. 
+	\item \textbf{2002-2003}\\
+	Integrated Science Teacher, Evergreen Valley High School, San Jose, CA  \\
+	Courses taught: Advisory and four sections of sophomore level integrated science.\\  
+	Assisted in the opening of a new school, ordering and preparing equipment and supplies for labs, developing curriculum for Advisory and for Integrated Science. Made heavy use of educational technology in a school that provided laptops for every student, serving a diverse student population.  
+	\item \textbf{1999-2002} \\
+	Teaching Assistant, San Francisco State University \\  
+	Courses taught: Critical Thinking  \\
+	Courses assisted: Logic, Philosophy of Science (undergraduate), and Philosophy of Science (graduate)  \\
+	Courses graded: Ancient Philosophy and Medieval Philosophy (undergraduate) \\  
+	Developed online course material and organized large tutorial sessions for Logic and Philosophy of Science.  Developed curriculum for Critical Thinking, serving a diverse student population.  
+	\item \textbf{1999-2002} \\
+	Substitute Teacher, San Francisco Public Schools \\  
+	Worked in a wide variety of public high schools and middle schools, serving classes in the sciences, mathematics, and history.  Served the diverse student populations of San Francisco.  
+	\item \textbf{1998-1999} \\
+	Math Teacher, East Union High School, Manteca, CA \\  
+	Courses taught: College-prep Algebra and standard Algebra \\  
+	Used a variety of group learning and direct instruction techniques, assisted in the preparation of the school's accreditation review with the Western Association of Schools and Colleges, assistant coach of the varsity soccer team.  
+	\item \textbf{1998} \\
+	Summer Research Program, Lawrence Livermore National Laboratory \\
+\end{itemize}
+
+\bigskip
+
+% Footer
+%\begin{center}
+%  \begin{footnotesize}
+%    Last updated: \today \\
+%    \href{\footerlink}{\texttt{\footerlink}}
+%  \end{footnotesize}
+%\end{center}
+
+\end{document}

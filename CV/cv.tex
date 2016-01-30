@@ -1,0 +1,327 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+%\usepackage{parskip}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[T1]{fontenc}
+%\usepackage[sc,osf]{mathpazo}
+%\usepackage{textcomp}
+%\usepackage[altbullet]{lucidabr}
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+
+% Set your name here
+\def\name{Mark Betnel}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://markbetnel.com/cv.html}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {physics, education},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1em}
+  }
+}{
+  \end{list}
+}
+
+
+\linespread{1.1}
+
+
+
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  105 Bartlett Avenue \\
+  Cranston, RI 02905 \\
+    \\
+  \end{minipage}
+\begin{minipage}{0.05\linewidth}
+  \begin{tabular}{ll}
+     & (401) 461-0268 \\
+     & \href{mailto:markbetnel@gmail.com}{\tt markbetnel@gmail.com} \\
+     & \href{http://www.markbetnel.com/}{\tt http://www.markbetnel.com/} \\
+  \end{tabular}
+\end{minipage}
+
+
+%\section*{Personal}
+%\begin{itemize}
+%\item Born February 1, 1976.
+%\end{itemize}
+
+
+\section*{Education}
+\begin{itemize}
+  \item Ph.D. \textbf{Boston University}, Physics, 2005 - 2011	
+      \vspace{-0.5em}
+ \begin{quote} Thesis: \emph{Computational study of protein folding and assembly in Alzheimer's and Parkinson's diseases}\\
+	Advisor: Brigita Urbanc, Department of Physics, Drexel University	
+\end{quote}
+
+\item M.S. \textbf{University of Rhode Island}, Physics, 2003 - 2005 
+\vspace{-0.5em}
+      \begin{quote}Advisor: Gerhard M\"{u}ller
+ 	\end{quote}
+  
+\item   M.A. \textbf{San Francisco State University}, Philosophy, 1999 - 2001 
+\vspace{-0.5em}
+\begin{quote} Thesis: \emph{Moral agency in a propaganda system}, Departmental Distinction\\
+	Advisor: Gus Bagakis 
+\end{quote}
+  
+\item   B.S. \textbf{Harvey Mudd College}, Physics, 1994 - 1998 
+\vspace{-0.5em} 
+     \begin{quote}Thesis: \emph{Design of a broadband force feedback seismometer} \\
+      Advisor: Greg Lyzenga
+	\end{quote}
+\end{itemize}
+
+
+\section*{Teaching Experience}
+\begin{itemize}
+        \item \textbf{Assistant Professor}, Departments of Math and Science, Johnson and Wales University, 2011 - current 
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses Taught:} General Physics, Physics, Survey of Math, Quantitative Analysis, Discrete Mathematics, Science and Civilization, Algebra, Precalculus\\
+	\textbf{Service:} Developed new lab courses for general and advanced physics sequence; developing new integrative learning courses in Ethics in Technology and in Biostatistics; updated courses in Discrete Mathematics and Science and Civilization to reflect integrative learning goals and new uses of technology; working with Science department to create a new biology major; organizing science department efforts to assess written communication in upper level science courses; scheduled to teach an online course in Science and Civilization in spring 2013. 
+\end{quote} 
+
+        \item \textbf{Adjunct faculty}, Physics and Chemistry, Wentworth Institute of Technology, Spring 2011
+\vspace{-0.5em} 
+\begin{quote}\textbf{Courses Taught:} Introductory Chemistry and Introductory Physics labs\\
+        \textbf{Skills:} Lab curriculum development, chemical safety.
+ \end{quote}
+
+	\item \textbf{Graduate Writing Fellow}, Boston University, 2008-2009 
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses taught:} WR100/WR150 (Freshman writing seminars, first and second semester)  
+ 	\textbf{Skills:} Developed curriculum for Popular Science Writing, managed online course content and online peer editing and feedback systems, taught two semesters of writing to college freshmen.
+  \end{quote}
+	\item \textbf{National Science Foundation GK-12 Fellow}, Boston Urban Fellows, 2007-2008 
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses taught:} High school physics, engineering  \\
+	\textbf{Skills:} Curriculum and materials development for high school physics and engineering classes at The Engineering School, a model school in Hyde Park, MA serving a diverse student population.  Developed lecture demonstrations in consultation with the Boston University Physics Department Demo Coordinator.  \end{quote}
+	\item \textbf{Teaching Fellow}, Physics, Boston University, 2005 - 2008
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses taught:} Recitation sections for Electricity and Magnetism, recitation and lab sections for Modern Physics (undergraduate). Guest lectures in Modern Physics.  \\
+	\textbf{Courses graded:} Mathematical Methods (undergraduate), Computational Physics, Statistical Mechanics II, Solid State Physics (graduate)   
+\end{quote}
+	\item \textbf{Teaching Assistant}, Physics, University of Rhode Island 2003 - 2005 
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses taught:} Lab sections for Introductory Mechanics   \\
+	\textbf{Skills:} Assisted in maintenance of instructional lab equipment.  Developed new lab manual for Introductory Mechanics classes, focusing on clear exposition for use by new teaching assistants, and pedagogical value for students.  Arranged technology demonstrations for new graduate students. 
+\end{quote}
+	\item \textbf{Integrated Science Teacher}, Evergreen Valley High School, San Jose, CA  2002-2003
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses taught:} Advisory and four sections of sophomore level integrated science.\\  
+	\textbf{Skills:} Assisted in the opening of a new school, ordering and preparing equipment and supplies for labs, developing curriculum for Advisory and for Integrated Science. Made heavy use of educational technology in a school that provided laptops for every student, serving a diverse student population.  
+\end{quote}
+	\item \textbf{Teaching Assistant}, San Francisco State University, 1999 - 2002 
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses taught:} Critical Thinking  \\
+	\textbf{Courses assisted:} Logic, Philosophy of Science (undergraduate), and Philosophy of Science (graduate)  \\
+	\textbf{Courses graded:} Ancient Philosophy and Medieval Philosophy (undergraduate) \\  
+	\textbf{Skills:} Developed online course material and organized large tutorial sessions for Logic and Philosophy of Science.  Developed curriculum for Critical Thinking, serving a diverse student population.  
+\end{quote}
+	\item \textbf{Substitute Teacher}, San Francisco Public Schools, 1999 - 2002 
+\vspace{-0.5em}
+\begin{quote}
+	\textbf{Skills:} Worked in a wide variety of public high schools and middle schools, serving classes in the sciences, mathematics, and history.  Served the diverse student populations of San Francisco.  
+\end{quote}
+	\item \textbf{Math Teacher}, East Union High School, Manteca, CA, 1998 - 1999 
+\vspace{-0.5em}
+\begin{quote}\textbf{Courses taught:} College-prep Algebra and standard Algebra\\ 
+	\textbf{Skills:} Used a variety of group learning and direct instruction techniques, assisted in the preparation of the school's accreditation review with the Western Association of Schools and Colleges, assistant coach of the varsity soccer team.  
+\end{quote}
+\end{itemize}
+
+\section*{Research Experience}
+\begin{itemize}
+	\item \textbf{Assistant Professor}, Johnson and Wales University, 2011-current 
+\vspace{-0.5em}
+\begin{quote}Developing new research program in curriculum development for physics and math, including Sage-enabled text materials for Discrete Mathematics, to be piloted in the Winter and Spring of 2013.
+\end{quote}
+	\item \textbf{Research Fellow}, Biophysics, Boston University, 2007-2011\vspace{-0.5em}
+\begin{quote}Used discrete molecular dynamics to simulate folding, assembly,
+	and inhibition of assembly in proteins related to Alzheimer's and
+	Parkinson's diseases.  \\
+	\textbf{Skills:} Software development, use, and maintenance in C++, Python, VMD, Gromacs, TCL, R.  Biophysics of folding and assembly in disordered proteins.  Effective interaction potentials.\\
+	\textbf{Supervisor:} Brigita Urbanc, Drexel University 
+\end{quote}
+	\item \textbf{Quantum Information Theory}, University of Rhode Island and Boston University, 2004-2007
+\vspace{-0.5em}
+\begin{quote}
+	Investigated the use of coherent states of light as storage and transmission media for continuous variable quantum computation.\\
+	\textbf{Skills:} Simulation of quantum algorithms and coherent states using Mathematica.\\
+	\textbf{Supervisors:} Gerhard Muller, URI; Gregg Jaeger, Boston University 		
+\end{quote}
+	\item \textbf{Summer Research Program}, Lawrence Livermore National Laboratory, 1998
+\begin{quote}
+\vspace{-0.5em}
+	Assisted in design calculations for construction of the Intense-Electron Beam Ion Trap (I-EBIT).  \\
+	\textbf{Skills:} Finite element modelling, simulation of ion focusing lenses.  \\
+	\textbf{Supervisor:} Ross Marrs
+\end{quote}
+	\item \textbf{Undergraduate Research}, Harvey Mudd College, 1997-1998
+\vspace{-0.5em}
+\begin{quote}
+	Assisted in design and construction of a broadband force-feedback seismometer; used GPS antennae to track crust motion in the Los Angeles basin.\\
+	\textbf{Skills:} Circuit design and fabrication, mountaineering. \\
+	\textbf{Supervisor:} Greg Lyzenga
+\end{quote}
+\end{itemize}
+
+
+\section*{Publications}
+\subsection*{Peer Reviewed}
+\begin{itemize}
+	\item Urbanc, B., \textbf{M. Betnel}, L. Cruz, G. Bitan, D. Teplow.  
+\emph{Elucidation of Amyloid $\beta$-Protein Oligomerization Mechanisms: Discrete Molecular Dynamics Study}, Journal of the American Chemical Society  132 (4266), 2010.     
+	\item Urbanc, B., \textbf{M. Betnel}, L. Cruz, G. Bitan, D. Teplow.  
+\emph{Elucidation of Amyloid $\beta$-Protein Oligomerization Mechanisms: Discrete Molecular Dynamics Study}, Journal of the American Chemical Society  132 (4266), 2010.     
+	\item \textbf{M. Nelson}, \emph{Moral agency in a propaganda system}, Discourse 8, 2002.
+\end{itemize}
+
+\subsection*{Manuscripts in preparation}
+\begin{itemize}
+	\item \textbf{Betnel, M.}, N.V. Dokholyan, B. Urbanc.  
+	\emph{From disordered amyloid $\beta$-proteins to soluble oligomers and 
+	protofibrils using Discrete Molecular Dynamics}.  
+	Invited review, in press.  
+
+	\item \textbf{Betnel, M.}
+	\emph{Practically Discrete: An introduction to Discrete Mathematics}.
+	Open source introductory textbook for discrete mathematics using the Sage symbolic computation system, to be used on a trial basis in Spring 2013.
+\end{itemize}
+
+
+\subsection*{Other Publications}
+\begin{itemize}
+	\item \textbf{M. Nelson}, \emph{Introductory Laboratory Manual, Physics 111-112}.  University of Rhode Island Department of Physics,  2004.
+\end{itemize}
+
+\subsection*{Invited Talks}
+\begin{itemize}
+	\item  "Computational study of protein folding and assembly in
+          Alzheimer's disease". \emph{Brown University, Biological Physics
+          Journal Club}, Providence, RI. April 20, 2011.
+	\item  "Computational study of protein folding and assembly in
+          Alzheimer's disease". \emph{Brown University, Department of
+            Physics}, Providence, RI. December 15, 2010.
+          \item  "Moral agency in a propaganda system". \emph{St. Thomas Episcopal Church}, Sunnyvale,
+            CA. January 10, 2002.
+\end{itemize}
+
+
+
+\subsection*{Posters}
+\begin{itemize}
+	\item \textbf{Betnel, M.}, L. Cruz, B. Wolozin, B. Urbanc.  
+	"Computational study of $\alpha$-synuclein protein folding and assembly in Parkinson's disease". \emph{Protein Society 23rd Symposium}, Boston, MA.  July 2010.
+	\item \textbf{Betnel, M.}, L. Cruz, B. Wolozin, B. Urbanc.  
+	"Computational studies of protein folding and aggregation in Parkinson's 
+	disease". \emph{American Chemical Society 238th National Meeting}, Washington, DC.  August, 2010.
+\end{itemize}
+
+\section*{Awards and grants}
+\begin{itemize}
+       \item  TeraGrid Startup allocation, \emph{Identification of the
+           structural basis for inhibition of amyloid $\beta$-protein
+           toxicity by amyloid beta derived peptide fragments,
+           relevant to Alzheimer's Disease}, July 2011. 
+	\item TeraGrid Research allocation, \emph{Multiscale Molecular 
+          Dynamics of Protein Folding and Assembly}, with B. Barz and 
+          B. Urbanc, Drexel University, 
+	June 2010.
+    \item TeraGrid Startup allocation, \emph{Elucidation of the free energy folding 
+landscapes of amyloid $\beta$-protein and $\alpha$-synuclein, relevant to 
+Alzheimer's and Parkinson's diseases}, with B. Urbanc, Drexel University, 
+February 2010.  
+	\item Teaching Fellow of the Year, Boston University Department of Physics, 2007.
+
+\end{itemize}
+
+
+\section*{Affiliations}
+\begin{itemize}
+	\item American Physical Society
+	\item American Association of Physics Teachers
+	\item American Chemical Society
+        \item Mathematical Association of America
+        \item National Council of Teachers of Mathematics
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
